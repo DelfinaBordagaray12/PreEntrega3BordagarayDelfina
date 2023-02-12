@@ -1,3 +1,18 @@
+/*Las variables siempre van arriba de todo*/
+
+@import "./utilidades/colors";
+@import "./utilidades/reset";
+
+
+/*SECCIONES*/
+
+@import "./secciones/header";
+@import "./secciones/main_index";
+@import "./secciones/main_nosotros";
+@import "./secciones/main_productos";
+@import "./secciones/main_menu";
+@import "./secciones/main_nosotros";
+@import "./secciones/footer";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@200&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&family=Roboto+Slab:wght@200&display=swap'); */
