@@ -1,0 +1,51 @@
+/* NOSOTROS */
+.container_nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "texto_nosotros img_nosotros"
+   "texto_nosotros img_nosotros"
+   "texto_nosotros img_nosotros"; }
+  
+  .texto_nosotros {
+    grid-area: texto_nosotros; }
+  
+  .img_nosotros {
+    grid-area: img_nosotros; }
+  
+  .texto_nosotros {
+    font-family: 'Roboto Slab', serif;
+    display: grid;
+    flex-direction: row-reverse;
+    justify-items: center;
+    color: whitesmoke;
+    font-size: 10px;
+    font-size: medium;
+    padding: 10px 10px 10px 5px;
+    margin: 0px 0px 20px 50px;
+    align-items: center; }
+  
+  .img_nosotros {
+    align-items: center;
+    margin: 20px 20px 20px 40px;
+    content: normal;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    align-items: center; }
+  /* MOBILE LAST */
+/* MEDIA QUERY DISPOSITIVOS MEDIANOS */
+@media (max-width: 768px) {
+  .img_nosotros {
+    align-items: center;
+    margin: 20px 20px 20px 40px;
+    content: normal;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    align-items: center; }
+  
+  }
+    
