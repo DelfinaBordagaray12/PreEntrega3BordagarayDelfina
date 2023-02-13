@@ -39,6 +39,7 @@
   
     .texto_index {
       font-size: 18px;
+      color: whitesmoke;
       font-family: 'Roboto Slab', serif;
       text-align: center;
       margin: 0px 10px 20px 10px;
@@ -84,4 +85,15 @@
     margin: 15px 0px 15px 0px; } }
 
     
-  
+  /* MEDIA QUERY DISPOSITIVOS MOVILES */
+@media (max-width: 575px) {
+  .nombre__empresa {
+    font-size: 40px; }
+  .logo {
+    flex-direction: column; }
+  header ul {
+    font-size: 15px; }
+  li {
+    display: block;
+    align-items: center;
+    margin: 0.5 rem; } }
