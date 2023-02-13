@@ -54,9 +54,9 @@
     display: none; }
 
   .texto_index {
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Roboto Slab', serif;
-    /* border: 3px solid white; */ }
+
   .container_index {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -82,11 +82,13 @@
     height: 10%;
     width: 100%;
     object-fit: cover;
-    margin: 15px 0px 15px 0px; } }
+    margin: 15px 0px 15px 0px; } } }
 
     
   /* MEDIA QUERY DISPOSITIVOS MOVILES */
 @media (max-width: 575px) {
+
+  .texto_index {font-size: 15px;}
   .nombre__empresa {
     font-size: 40px; }
   .logo {
@@ -96,4 +98,9 @@
   li {
     display: block;
     align-items: center;
-    margin: 0.5 rem; } }
+    margin: 0.5 rem; }
+
+      .container_index {
+      .imagen_index {
+        height: 20%;
+        width: 100%;} } }

@@ -10,7 +10,7 @@ header {
     color: whitesmoke; }
   
   .nombre__empresa {
-    font-size: 45px; }
+    font-size: 50px; }
   
   .link__navegacion {
     text-decoration: none;
@@ -58,9 +58,17 @@ header {
         display: flex;
         flex-direction: row;
         font-size: 25px; }
+        nav a { font-size: 20px;}
       li {
         display: block;
         align-items: center;
         margin: 0.5 rem; }}
+
+        // * MEDIA QUERY DISPOSITIVOS MOVILES */
+        @media (max-width: 575px) { 
+          .nombre__empresa {
+            font-size: 40px; }
+          
+          nav a { font-size: 15px;}}
       
      

@@ -1,12 +1,17 @@
 /* MENU */
 .menu {
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
     background-image: url(https://ep01.epimg.net/elcomidista/imagenes/2017/09/27/articulo/1506522721_155894_1506523041_media_normal.jpg); }
   
   .titulo__menu {
     font-size: 40px;
     color: white;
     text-align: center;
-    text-decoration: double 3px white; }
+    text-decoration: double 3px white; 
+  padding: 20px;}
   
   .lista-menu {
     display: inline; }
