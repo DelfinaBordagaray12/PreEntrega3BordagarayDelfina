@@ -1,6 +1,9 @@
 /* PRODUCTOS */
 
 /* PRODUCTOS */
+
+.main_productos {background-color:black ;}
+
 .texto {
     color: whitesmoke;
     background-color: black;
@@ -96,7 +99,7 @@
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr 1fr;
           gap: 30px 30px;
-          margin: 30px 40px 10px 60px;
+          margin: 20px 30px 10px 30px;
           grid-auto-flow: row;
           grid-template-areas: "imagen1 imagen2"
        "imagen3 imagen4"
@@ -106,11 +109,5 @@
           display: none; } }
 
 
-      /*MEDIA QUERY DISPOSITIVOS PEQUEÑOS*/
-      @media (max-width: 575px) {
-        .container_productos {
-
-        margin: 20px 30px 10px 30px;
-       } 
-  
-      }
+      
+      
