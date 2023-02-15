@@ -13,18 +13,18 @@ header {
   display: flex;
   font-family: 'Bebas Neue', cursive;
   min-height: 70px;
-  background-color: black;
+  background-color: #000000;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 .nombre__empresa {
   font-size: 50px; }
 
 .link__navegacion {
   text-decoration: none;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 .logo {
   display: flex;
@@ -57,7 +57,7 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    color: whitesmoke; }
+    color: #f5f5f5; }
   .nombre__empresa {
     font-size: 50px; }
   .logo {
@@ -118,7 +118,7 @@ nav a:hover {
 
 .texto_index {
   font-size: 18px;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-family: 'Roboto Slab', serif;
   text-align: center;
   margin: 0px 10px 20px 10px;
@@ -195,7 +195,7 @@ nav a:hover {
   display: grid;
   flex-direction: row-reverse;
   justify-items: center;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 10px;
   font-size: medium;
   padding: 10px 10px 10px 5px;
@@ -276,8 +276,8 @@ nav a:hover {
   background-color: black; }
 
 .texto {
-  color: whitesmoke;
-  background-color: black;
+  color: #f5f5f5;
+  background-color: #000000;
   text-align: center;
   font-family: 'Roboto Slab', serif; }
 
@@ -377,16 +377,16 @@ nav a:hover {
 
 .titulo__menu {
   font-size: 40px;
-  color: white;
+  color: #f5f5f5;
   text-align: center;
-  text-decoration: double 3px white;
+  text-decoration: double 3px #f5f5f5;
   padding: 20px; }
 
 .lista-menu {
   display: inline; }
 
 .menu__productos {
-  color: white;
+  color: #f5f5f5;
   width: 70%;
   height: 80%;
   padding: 0 0 70px 0px;
@@ -402,7 +402,7 @@ nav a:hover {
   grid-template-areas: "formulario formulario formulario " "formulario formulario formulario" "formulario formulario formulario "; }
 
 .formulario {
-  background-color: black;
+  background-color: #000000;
   grid-area: formulario; }
 
 .form_wrap {
@@ -521,60 +521,7 @@ form.form_contact input[type="button"] {
   cursor: pointer; }
 
 form.form_contact input[type="button"]:hover {
-  background: #3371B6; }
-
-/* Ventana de errores*/
-.modal_wrap {
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.mensaje_modal {
-  background: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-  width: 400px;
-  padding: 30px 20px 15px; }
-
-.mensaje_modal h3 {
-  text-align: center;
-  font-family: 'Ubuntu';
-  font-size: 20px;
-  font-weight: 400; }
-
-.mensaje_modal h3:after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #C5C5C5;
-  margin: 10px 0px 15px; }
-
-.mensaje_modal p {
-  font-size: 16px;
-  color: #606060; }
-
-.mensaje_modal p:before {
-  content: "\f00d";
-  font-family: FontAwesome;
-  display: inline-block;
-  color: #E25151;
-  margin-right: 8px; }
-
-#btnClose {
-  display: inline-block;
-  padding: 3px 10px;
-  margin-top: 10px;
-  background: #E25151;
-  color: #fff;
-  border: 2px solid #B14141;
-  cursor: pointer; }
+  background: #172638; }
 
 /* MOBILE LAST */
 /* MEDIA QUERY DISPOSITIVOS MEDIANOS */
@@ -612,8 +559,8 @@ form.form_contact input[type="button"]:hover {
 
 /* PIE DE PAGINA */
 .pie__de__pagina {
-  color: #070606;
-  background-color: whitesmoke;
+  color: #000000;
+  background-color: #f5f5f5;
   text-align: center; }
 
 .pie__de__pagina img {

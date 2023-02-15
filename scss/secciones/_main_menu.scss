@@ -8,16 +8,16 @@
   
   .titulo__menu {
     font-size: 40px;
-    color: white;
+    color: $whitesmoke;
     text-align: center;
-    text-decoration: double 3px white; 
+    text-decoration: double 3px $whitesmoke; 
   padding: 20px;}
   
   .lista-menu {
     display: inline; }
   
   .menu__productos {
-    color: white;
+    color: $whitesmoke;
     width: 70%;
     height: 80%;
     padding: 0 0 70px 0px;
