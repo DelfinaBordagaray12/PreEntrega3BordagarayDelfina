@@ -1,6 +1,5 @@
 /* PRODUCTOS */
 
-/* PRODUCTOS */
 
 .main_productos {background-color:black ;}
 
@@ -8,11 +7,9 @@
     color:$whitesmoke;
     background-color: $fondo;
     text-align: center;
-    font-family: 'Roboto Slab', serif; }
+    font-family:$typo_principal; }
   
-  /* .fotos img:hover {
-     color: azure;
-  } */
+ 
   .container_productos {
     display: grid;
     justify-items: center;

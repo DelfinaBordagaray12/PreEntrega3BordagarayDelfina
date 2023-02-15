@@ -19,7 +19,7 @@
 }
 
 .texto_nosotros {
-  font-family: 'Roboto Slab', serif;
+  font-family: $typo_principal;
   display: grid;
   flex-direction: row-reverse;
   justify-items: center;
