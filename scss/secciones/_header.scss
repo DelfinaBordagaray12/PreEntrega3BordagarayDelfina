@@ -1,7 +1,7 @@
 /* HEADER */
 header {
-    display: flex;
-    font-family: $typo_header;
+    display: flex; 
+    font-family:'Bebas Neue', cursive;
     min-height: 70px;
     background-color: $fondo;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header {
   nav a {
     font-weight: 600;
     padding-right: 10px;
-    font-family: $typo_principal;}
+    font-family: 'Roboto Slab', serif;}
   
   nav a:hover {
     transition:  .7s ease all;
