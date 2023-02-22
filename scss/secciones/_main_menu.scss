@@ -9,16 +9,16 @@
   
   .titulo__menu {
     font-size: 40px;
-    color: $whitesmoke;
+    // color: $whitesmoke;
     text-align: center;
-    text-decoration: double 3px $whitesmoke; 
+    text-decoration: double 3px whitesmoke; 
   padding: 20px;}
   
   .lista-menu {
     display: inline; }
   
   .menu__productos {
-    color: $whitesmoke;
+    color: whitesmoke;
     width: 70%;
     height: 80%;
     padding: 0 0 70px 0px;

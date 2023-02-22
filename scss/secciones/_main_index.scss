@@ -6,6 +6,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
+    background-color: black;
     grid-template-columns: 1.5fr 0.1fr 1.6fr;
     grid-template-rows: 0.7fr 0.9fr 0.7fr; }
   
@@ -39,7 +40,7 @@
   
     .texto_index {
       font-size: 18px;
-      color: $whitesmoke;
+      color: whitesmoke;
       font-family: 'Roboto Slab', serif;
       text-align: center;
       margin: 0px 10px 20px 10px;

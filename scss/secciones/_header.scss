@@ -3,18 +3,18 @@ header {
     display: flex; 
     font-family:'Bebas Neue', cursive;
     min-height: 70px;
-    background-color: $fondo;
+    background-color: black;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    color: $whitesmoke; }
+    color: whitesmoke; }
   
   .nombre__empresa {
     font-size: 50px; }
   
   .link__navegacion {
     text-decoration: none;
-    color: $whitesmoke; }
+    color: whitesmoke; }
   
   .logo {
     display: flex;
@@ -50,7 +50,7 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-        color: $whitesmoke; }
+        color: whitesmoke; }
       .nombre__empresa {
         font-size: 50px; }
       .logo {

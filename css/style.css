@@ -1,5 +1,6 @@
 /*Las variables siempre van arriba de todo*/
-/*Variables globales*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&family=PT+Sans+Narrow&family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,18 +12,18 @@ header {
   display: flex;
   font-family: 'Bebas Neue', cursive;
   min-height: 70px;
-  background-color: #000000;
+  background-color: black;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 .nombre__empresa {
   font-size: 50px; }
 
 .link__navegacion {
   text-decoration: none;
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 .logo {
   display: flex;
@@ -56,7 +57,7 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    color: #f5f5f5; }
+    color: whitesmoke; }
   .nombre__empresa {
     font-size: 50px; }
   .logo {
@@ -86,6 +87,7 @@ nav a:hover {
   display: grid;
   justify-items: center;
   align-items: center;
+  background-color: black;
   grid-template-columns: 1.5fr 0.1fr 1.6fr;
   grid-template-rows: 0.7fr 0.9fr 0.7fr; }
 
@@ -117,7 +119,7 @@ nav a:hover {
 
 .texto_index {
   font-size: 18px;
-  color: #f5f5f5;
+  color: whitesmoke;
   font-family: 'Roboto Slab', serif;
   text-align: center;
   margin: 0px 10px 20px 10px;
@@ -173,8 +175,8 @@ nav a:hover {
     width: 100%; } }
 
 /* NOSOTROS */
-.melez {
-  display: grid; }
+main {
+  background-color: black; }
 
 .container_nosotros {
   display: grid;
@@ -239,12 +241,9 @@ nav a:hover {
     align-content: space-around; } }
 
 /* PRODUCTOS */
-.main_productos {
-  background-color: black; }
-
 .texto {
-  color: #f5f5f5;
-  background-color: #000000;
+  color: whitesmoke;
+  background-color: black;
   text-align: center;
   font-family: 'Roboto Slab', serif; }
 
@@ -342,16 +341,15 @@ nav a:hover {
 
 .titulo__menu {
   font-size: 40px;
-  color: #f5f5f5;
   text-align: center;
-  text-decoration: double 3px #f5f5f5;
+  text-decoration: double 3px whitesmoke;
   padding: 20px; }
 
 .lista-menu {
   display: inline; }
 
 .menu__productos {
-  color: #f5f5f5;
+  color: whitesmoke;
   width: 70%;
   height: 80%;
   padding: 0 0 70px 0px;
@@ -367,7 +365,7 @@ nav a:hover {
   grid-template-areas: "formulario formulario formulario " "formulario formulario formulario" "formulario formulario formulario "; }
 
 .formulario {
-  background-color: #000000;
+  background-color: black;
   grid-area: formulario; }
 
 .form_wrap {
@@ -388,7 +386,7 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #4ce0a5;
+  background: black;
   opacity: 0.9; }
 
 .cantact_info {
@@ -474,7 +472,7 @@ form.form_contact textarea {
 
 form.form_contact input[type="button"] {
   width: 180px;
-  background: #4ce0a5;
+  background: #3bbbd7;
   padding: 10px;
   border: none;
   border-radius: 25px;
@@ -525,8 +523,8 @@ form.form_contact input[type="button"]:hover {
 /* PIE DE PAGINA */
 .pie__de__pagina {
   font-family: 'Roboto Slab', serif;
-  color: #000000;
-  background-color: #f5f5f5;
+  color: black;
+  background-color: whitesmoke;
   text-align: center; }
 
 .pie__de__pagina img {
