@@ -1,10 +1,15 @@
 /*Las variables siempre van arriba de todo*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&family=PT+Sans+Narrow&family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
   letter-spacing: 1.5px; }
+
+body {
+  background-color: black; }
 
 /*SECCIONES*/
 /* HEADER */
@@ -37,9 +42,10 @@ li {
   display: inline; }
 
 nav a {
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   padding-right: 10px;
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Roboto Serif', serif; }
 
 nav a:hover {
   transition: .7s ease all;
@@ -118,12 +124,12 @@ nav a:hover {
   object-fit: cover; }
 
 .texto_index {
-  font-size: 18px;
+  font-size: 16px;
   color: whitesmoke;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Serif', serif;
   text-align: center;
-  margin: 0px 10px 20px 10px;
-  padding: 10px 10px 10px 5px;
+  margin: 50px 30px 50px 30px;
+  padding: 50px 70px 50px 70px;
   /* border: 3px solid white; */ }
 
 /* MOBILE LAST */
@@ -132,8 +138,9 @@ nav a:hover {
   .container-menu {
     display: none; }
   .texto_index {
+    color: whitesmoke;
     font-size: 15px;
-    font-family: 'Roboto Slab', serif; }
+    font-family: 'Roboto Mono', monospace; }
     .texto_index .container_index {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -175,11 +182,10 @@ nav a:hover {
     width: 100%; } }
 
 /* NOSOTROS */
-main {
-  background-color: black; }
-
 .container_nosotros {
   display: grid;
+  align-content: center;
+  margin: 0px 50px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -192,12 +198,23 @@ main {
 .img_nosotros {
   grid-area: img_nosotros; }
 
+.titulo_nosotros {
+  display: grid;
+  justify-items: stretch;
+  color: black;
+  font-family: 'Roboto Serif', serif;
+  align-items: center; }
+
 .texto_nosotros {
+  font-family: 'Roboto Serif', serif;
+  display: grid;
+  align-content: center;
+  color: whitesmoke;
   align-items: start; }
 
 .img_nosotros {
   align-items: center;
-  margin: 20px 20px 20px 40px;
+  margin: 20px 20px 60px 40px;
   content: normal;
   width: 500px;
   height: 600px;
@@ -205,17 +222,29 @@ main {
   align-items: center; }
 
 @media (max-width: 768px) {
+  .container_nosotros {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 0fr 0fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "img_nosotros img_nosotros" "texto_nosotros texto_nosotros"; }
+  .texto_nosotros {
+    display: grid;
+    font-size: 15px;
+    flex-direction: row-reverse;
+    justify-items: center;
+    margin: 0px 0px 20px 20px;
+    align-items: stretch; }
   .img_nosotros {
     display: grid;
-    margin: 20px 20px 20px 40px;
-    content: normal;
+    justify-content: center;
+    margin: 20px 20px 50px 50px;
+    height: 500px;
     width: 400px;
-    height: 900px;
     object-fit: cover;
     justify-content: end;
-    align-content: center; }
-  .texto_nosotros_desktop {
-    display: none; } }
+    align-content: space-around; } }
 
 @media (max-width: 575px) {
   .container_nosotros {
@@ -332,7 +361,7 @@ main {
 
 /* MENU */
 .menu {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Serif', serif;
   display: grid;
   align-content: space-between;
   justify-content: center;
@@ -341,6 +370,7 @@ main {
 
 .titulo__menu {
   font-size: 40px;
+  color: whitesmoke;
   text-align: center;
   text-decoration: double 3px whitesmoke;
   padding: 20px; }
@@ -460,7 +490,7 @@ form.form_contact textarea {
   margin-bottom: 20px;
   border: none;
   border-bottom: 2px solid #D1D1D1;
-  font-family: 'Open sans';
+  font-family: 'Roboto Serif', serif;
   color: #5A5A5A;
   font-size: 14px;
   font-weight: 400; }
@@ -478,7 +508,7 @@ form.form_contact input[type="button"] {
   border-radius: 25px;
   align-self: flex-end;
   color: #fff;
-  font-family: 'Open sans';
+  font-family: 'Roboto Serif', serif;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer; }

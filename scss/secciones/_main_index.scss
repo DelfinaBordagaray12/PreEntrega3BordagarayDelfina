@@ -39,12 +39,12 @@
     object-fit: cover; }
   
     .texto_index {
-      font-size: 18px;
+      font-size: 16px;
       color: whitesmoke;
-      font-family: 'Roboto Slab', serif;
+      font-family: 'Roboto Serif', serif;
       text-align: center;
-      margin: 0px 10px 20px 10px;
-      padding: 10px 10px 10px 5px;
+      margin: 50px 30px 50px 30px;
+      padding: 50px 70px 50px 70px;
       /* border: 3px solid white; */ }
 
 
@@ -54,9 +54,9 @@
   .container-menu {
     display: none; }
 
-  .texto_index {
+  .texto_index {color: whitesmoke;
     font-size: 15px;
-    font-family:'Roboto Slab', serif;
+    font-family:'Roboto Mono', monospace;
 
   .container_index {
     display: grid;
