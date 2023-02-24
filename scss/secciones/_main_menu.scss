@@ -1,10 +1,13 @@
 /* MENU */
+
+table { background-color: black;
+border: solid ;}
+
 .menu {
   font-family: 'Roboto Serif', serif;
-  display: grid;
   align-content: space-between;
-  justify-content: center;
-  align-items: center;
+  padding: auto;
+  margin: 0px 30px 40px 30px;
     background-image: url(https://ep01.epimg.net/elcomidista/imagenes/2017/09/27/articulo/1506522721_155894_1506523041_media_normal.jpg); }
   
   .titulo__menu {
@@ -18,9 +21,12 @@
     display: inline; }
   
   .menu__productos {
-    color: whitesmoke;
-    width: 70%;
+    display: grid;
+justify-content: space-around;
+
+    color: rgb(229, 214, 214);
+    width: 90%;
     height: 80%;
-    padding: 0 0 70px 0px;
+    padding: 0 0 0px 0px;
     text-align: center; }
   

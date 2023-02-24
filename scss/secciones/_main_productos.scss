@@ -2,7 +2,10 @@
 
 
 // .main_productos {background-color:black ;}
-
+.titulo_productos { 
+  color: black;
+ font-family: 'Roboto Serif', serif;
+align-items: center;}
 .texto {
     color:whitesmoke;
     background-color: black;
@@ -86,7 +89,7 @@
         display: none; } 
         .imagen_cover {
           width: 40vw;
-          height: 50vw;
+          height: 60vw;
            }}
 
         // * MEDIA QUERY DISPOSITIVOS MOVILES */
