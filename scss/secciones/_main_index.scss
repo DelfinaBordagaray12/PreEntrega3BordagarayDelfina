@@ -5,7 +5,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: $negro;
+    background-color:$negro;
     grid-template-columns: 1.5fr 0.1fr 1.6fr;
     grid-template-rows: 0.7fr 0.9fr 0.7fr; }
   
@@ -54,7 +54,7 @@
   .container-menu {
     display: none; }
 
-  .texto_index {
+  .texto_index {color: whitesmoke;
     font-size: 15px;}
  }
 
