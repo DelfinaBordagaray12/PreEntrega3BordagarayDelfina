@@ -228,11 +228,11 @@ nav a:hover {
     flex-direction: row-reverse;
     justify-items: center;
     align-items: stretch;
-    margin: 0px 0px 20px 20px;
+    margin: 0px 0px 20px 0px;
     align-items: stretch; }
   .img_nosotros {
     display: grid;
-    margin: 0px 10px 20px 30px;
+    margin: 0px 10px 20px 0px;
     height: 500px;
     width: 300px;
     object-fit: cover;
@@ -508,7 +508,3 @@ form.form_contact input[type="button"]:hover {
 .pie__de__pagina img {
   height: 40px;
   align-content: flex-start; }
-
-@media (max-width: 575px) {
-  .pie__de__pagina {
-    width: 100%; } }
