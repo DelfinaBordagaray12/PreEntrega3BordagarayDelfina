@@ -1,11 +1,12 @@
 /* PIE DE PAGINA */
 .pie__de__pagina {
-  font-family:'Roboto Slab', serif;
-    color:black;
-    background-color:whitesmoke;
+  font-family:$typo_footer;
+    color:$negro;
+    background-color:$manteca;
+    margin-top: 30px;
     text-align: center; }
   
   .pie__de__pagina img {
-    height: 50px;
+    height: 40px;
     align-content: flex-start; }
   

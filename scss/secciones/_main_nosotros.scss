@@ -1,5 +1,5 @@
 /* NOSOTROS */
-// main {background-color: black;}
+
 
 .container_nosotros {
   display: grid;
@@ -22,17 +22,17 @@
   grid-area: img_nosotros;
 }
 
-.titulo_nosotros {  color: black;
- font-family: 'Roboto Serif', serif;
+.titulo_nosotros {  color: $negro;
+ font-family: $typo_texto;
 align-items: center;}
 
 
 
 .texto_nosotros {
-  font-family: 'Roboto Serif', serif;
+  font-family: $typo_texto;
   display: grid;
   align-content: center;
-  color: whitesmoke;
+  color: $manteca;
  align-items: start;
 }
 
@@ -62,8 +62,7 @@ align-items: center;}
     font-size: 15px;
     flex-direction: row-reverse;
     justify-items: center;
-    // max-width: 20px;
-    margin: 0px 0px 20px 20px;
+      margin: 0px 0px 20px 20px;
     padding: auto;
     align-items: stretch;
   }
@@ -92,7 +91,6 @@ justify-content: center;
     
     grid-template-rows: 0fr 0fr 0fr;
     gap: 0px 0px;
-    // max-width: 30px;
     grid-auto-flow: row;
     grid-template-areas: "img_nosotros img_nosotros"
       "texto_nosotros texto_nosotros"
@@ -117,7 +115,6 @@ display: grid;
     width: 300px;
 
     object-fit: cover;
-    // justify-content: end;
     align-content: space-around;
   }
 

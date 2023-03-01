@@ -1,20 +1,20 @@
 /* HEADER */
 header {
     display: flex; 
-    font-family:'Bebas Neue', cursive;
+    font-family:$typo_header;
     min-height: 70px;
-    background-color: black;
+    background-color:$negro;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    color: whitesmoke; }
+    color: $manteca; }
   
   .nombre__empresa {
     font-size: 50px; }
   
   .link__navegacion {
     text-decoration: none;
-    color: whitesmoke; }
+    color: $manteca; }
   
   .logo {
     display: flex;
@@ -31,7 +31,7 @@ header {
     font-size: 20px;
     font-weight: 500;
     padding-right: 10px;
-    font-family: 'Roboto Serif', serif;}
+    font-family: $typo_nav}
   
   nav a:hover {
     transition:  all .20s;
@@ -46,14 +46,7 @@ header {
 
     @media (max-width: 768px) {
       header {
-        flex-direction: column;
-        min-height: 70px;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        color: whitesmoke; }
-      .nombre__empresa {
-        font-size: 50px; }
+        flex-direction: column; }
       .logo {
         flex-direction: column; }
       header ul {

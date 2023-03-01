@@ -3,12 +3,12 @@
 
 // .main_productos {background-color:black ;}
 .titulo_productos { 
-  color: black;
- font-family: 'Roboto Serif', serif;
+  color: $negro;
+ font-family: $typo_texto;
 align-items: center;}
 .texto {
-    color:whitesmoke;
-    background-color: black;
+    color:$manteca;
+    background-color: $negro;
     text-align: center;
     font-family:'Roboto Slab', serif; }
   

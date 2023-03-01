@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&family=PT+Sans+Narrow&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Bebas+Neue&family=PT+Sans+Narrow&family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,20 +19,20 @@ body {
 /* HEADER */
 header {
   display: flex;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   min-height: 70px;
-  background-color: black;
+  background-color: #000000;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 .nombre__empresa {
   font-size: 50px; }
 
 .link__navegacion {
   text-decoration: none;
-  color: whitesmoke; }
+  color: #f5f5f5; }
 
 .logo {
   display: flex;
@@ -45,7 +49,7 @@ nav a {
   font-size: 20px;
   font-weight: 500;
   padding-right: 10px;
-  font-family: 'Roboto Serif', serif; }
+  font-family: "Roboto Serif", serif; }
 
 nav a:hover {
   transition: all .20s;
@@ -58,14 +62,7 @@ nav a:hover {
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    min-height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    color: whitesmoke; }
-  .nombre__empresa {
-    font-size: 50px; }
+    flex-direction: column; }
   .logo {
     flex-direction: column; }
   header ul {
@@ -93,7 +90,7 @@ nav a:hover {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: black;
+  background-color: #000000;
   grid-template-columns: 1.5fr 0.1fr 1.6fr;
   grid-template-rows: 0.7fr 0.9fr 0.7fr; }
 
@@ -119,14 +116,14 @@ nav a:hover {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border-color: beige;
+  border-color: #f5f5f5;
   align-items: center;
   object-fit: cover; }
 
 .texto_index {
   font-size: 16px;
-  color: whitesmoke;
-  font-family: 'Roboto Serif', serif;
+  color: #f5f5f5;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   margin: 0px 30px 0px 30px;
   padding: 50px 40px 50px 40px;
@@ -140,9 +137,7 @@ nav a:hover {
   .container-menu {
     display: none; }
   .texto_index {
-    color: whitesmoke;
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace; } }
+    font-size: 15px; } }
 
 /* MEDIA QUERY DISPOSITIVOS MOVILES */
 @media (max-width: 575px) {
@@ -177,15 +172,15 @@ nav a:hover {
   grid-area: img_nosotros; }
 
 .titulo_nosotros {
-  color: black;
-  font-family: 'Roboto Serif', serif;
+  color: #000000;
+  font-family: "Roboto Mono", monospace;
   align-items: center; }
 
 .texto_nosotros {
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Mono", monospace;
   display: grid;
   align-content: center;
-  color: whitesmoke;
+  color: #f5f5f5;
   align-items: start; }
 
 .img_nosotros {
@@ -249,13 +244,13 @@ nav a:hover {
 
 /* PRODUCTOS */
 .titulo_productos {
-  color: black;
-  font-family: 'Roboto Serif', serif;
+  color: #000000;
+  font-family: "Roboto Mono", monospace;
   align-items: center; }
 
 .texto {
-  color: whitesmoke;
-  background-color: black;
+  color: #f5f5f5;
+  background-color: #000000;
   text-align: center;
   font-family: 'Roboto Slab', serif; }
 
@@ -342,7 +337,6 @@ nav a:hover {
   .imagen9 {
     display: none; } }
 
-/* MENU */
 /* CONTACTO */
 .container_contacto {
   display: grid;
@@ -353,7 +347,7 @@ nav a:hover {
   grid-template-areas: "formulario formulario formulario " "formulario formulario formulario" "formulario formulario formulario "; }
 
 .formulario {
-  background-color: black;
+  background-color: #000000;
   grid-area: formulario; }
 
 .form_wrap {
@@ -361,7 +355,7 @@ nav a:hover {
   height: 530px;
   margin: 50px auto;
   display: flex;
-  background: #fff;
+  background: #f5f5f5;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); }
@@ -374,7 +368,7 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: black;
+  background: #000000;
   opacity: 0.9; }
 
 .cantact_info {
@@ -392,7 +386,7 @@ nav a:hover {
 .info_items {
   position: relative;
   z-index: 2;
-  color: #fff; }
+  color: #f5f5f5; }
 
 .info_title {
   margin-bottom: 60px; }
@@ -448,7 +442,7 @@ form.form_contact textarea {
   margin-bottom: 20px;
   border: none;
   border-bottom: 2px solid #D1D1D1;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Mono", monospace;
   color: #5A5A5A;
   font-size: 14px;
   font-weight: 400; }
@@ -465,8 +459,8 @@ form.form_contact input[type="button"] {
   border: none;
   border-radius: 25px;
   align-self: flex-end;
-  color: #fff;
-  font-family: 'Roboto Serif', serif;
+  color: #f5f5f5;
+  font-family: "Roboto Mono", monospace;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer; }
@@ -502,19 +496,19 @@ form.form_contact input[type="button"]:hover {
     font-size: 12px; }
   form.form_contact input[type="button"] {
     width: 180px;
-    color: black;
-    font-family: "Ubuntu";
+    color: #000000;
     font-size: 12px;
     font-weight: 00;
     cursor: pointer; } }
 
 /* PIE DE PAGINA */
 .pie__de__pagina {
-  font-family: 'Roboto Slab', serif;
-  color: black;
-  background-color: whitesmoke;
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  background-color: #f5f5f5;
+  margin-top: 30px;
   text-align: center; }
 
 .pie__de__pagina img {
-  height: 50px;
+  height: 40px;
   align-content: flex-start; }
