@@ -128,7 +128,8 @@ nav a:hover {
 /* MEDIA QUERY DISPOSITIVOS MEDIANOS */
 @media (max-width: 768px) {
   .index_mobile {
-    display: block; }
+    display: block;
+    object-fit: cover; }
   .container-menu {
     display: none; }
   .texto_index {

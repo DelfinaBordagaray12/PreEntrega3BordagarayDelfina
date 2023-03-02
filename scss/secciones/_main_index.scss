@@ -50,7 +50,8 @@
       /* MOBILE LAST */
 /* MEDIA QUERY DISPOSITIVOS MEDIANOS */
 @media (max-width: 768px) {
-  .index_mobile {display: block;}
+  .index_mobile {display: block;
+  object-fit: cover;}
   .container-menu {
     display: none; }
 
